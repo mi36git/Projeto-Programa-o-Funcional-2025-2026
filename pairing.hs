@@ -54,4 +54,3 @@ runAVEParing (_, _, jogadores) resultadosAnteriores =
 runElimParing :: TorneioElim -> ResultadosElim
 runElimParing (_, equipas) =
   [ (a, b, "") | (a, b) <- emparelhar equipas ]
-```
